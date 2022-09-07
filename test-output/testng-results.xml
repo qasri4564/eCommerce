@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-06T17:28:55 IST" name="eCommerce" finished-at="2022-09-06T17:29:25 IST" duration-ms="29668">
+    <groups>
+    </groups>
+    <test started-at="2022-09-06T17:28:55 IST" name="eCommerce test" finished-at="2022-09-06T17:29:25 IST" duration-ms="29668">
+      <class name="com.eCommerce.tests.TestLogin">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.eCommerce.tests.TestLogin@1ddf84b8]" started-at="2022-09-06T17:28:55 IST" name="setExtent" finished-at="2022-09-06T17:28:56 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.eCommerce.tests.TestLogin@1ddf84b8]" started-at="2022-09-06T17:28:56 IST" name="setup" finished-at="2022-09-06T17:29:07 IST" duration-ms="11287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestLoginpage()[pri:0, instance:com.eCommerce.tests.TestLogin@1ddf84b8]" started-at="2022-09-06T17:29:07 IST" name="TestLoginpage" finished-at="2022-09-06T17:29:23 IST" duration-ms="16330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginpage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eCommerce.tests.TestLogin@1ddf84b8]" started-at="2022-09-06T17:29:23 IST" name="tearDown" finished-at="2022-09-06T17:29:23 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestLoginpage status=SUCCESS method=TestLogin.TestLoginpage()[pri:0, instance:com.eCommerce.tests.TestLogin@1ddf84b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.eCommerce.tests.TestLogin@1ddf84b8]" started-at="2022-09-06T17:29:23 IST" name="endReport" finished-at="2022-09-06T17:29:25 IST" duration-ms="1685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.eCommerce.tests.TestLogin -->
+    </test> <!-- eCommerce test -->
+  </suite> <!-- eCommerce -->
+</testng-results>
